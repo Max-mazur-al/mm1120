@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.tool-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.tool-table th,
+.tool-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tool-table th {
+    background-color: #f0f0f0;
+}
+
+.rental-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rental-form input,
+.rental-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.rental-agreement p {
+    margin: 8px 0;
+}
